@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Protect Access</title>
+
+    <style>
+        body{
+            font-family: Arial;
+            background-color: #f2f2f2;
+        }
+
+        form{
+            width: 300px;
+            margin: auto;
+            padding: 20px;
+            background-color: white;
+            border-radius: 10px;
+        }
+
+        input{
+            width: 100%;
+            padding: 8px;
+            margin-top: 5px;
+            margin-bottom: 10px;
+        }
+
+        input[type="submit"]{
+            background-color: darkblue;
+            color: white;
+            border: none;
+        }
+    </style>
+</head>
+
+<body>
+
+<form action="/protectaccess" method="post">
+
+    <fieldset>
+
+        <!-- Name input -->
+        <input type="text" name="name" />
+        Name <br />
+
+        <!-- Password input -->
+        <input type="text" name="pw" />
+        Password <br />
+
+        <!-- ID Number input -->
+        <input type="text" name="IDnumber" />
+        ID Number <br />
+
+        <input type="submit" />
+
+    </fieldset>
+
+</form>
+
+</body>
+</html>
